@@ -30,8 +30,8 @@ public class Theory_Quiz
 		welcome();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the path to the file containing the questions: ");
-		//String path = sc.nextLine();
-		String path = "C:/Users/rsasw/Desktop/Code/oop_Quiz/questions_without_answers.json"; //used for testing
+		String path = sc.nextLine();
+		//String path = "C:/Users/rsasw/Desktop/Code/oop_Quiz/questions_without_answers.json"; //used for testing
 		int choice = 0;
 		QuestionPrinter qp = new QuestionPrinter();
 		int amountOfQuestions = 0;
